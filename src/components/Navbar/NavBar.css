@@ -1,0 +1,13 @@
+header {
+    background-color: #0000007c;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    height: 15vh;
+}
+
+.logo {
+    height: 10vh;
+    margin-left: 2vw;
+}

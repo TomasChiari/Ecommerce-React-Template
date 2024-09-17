@@ -1,0 +1,21 @@
+footer {
+    background-color: #272727;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 25vh;
+    width: 100%;
+
+    position: relative;
+    bottom: 0px;
+
+    padding: 3vh 0;
+}
+
+.logo-footer {
+    height: 10vh;
+}
+
