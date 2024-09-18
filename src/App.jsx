@@ -1,24 +1,22 @@
 import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import './App.css';
-import { NavBar } from './components/Navbar/Navbar.jsx';
-import { Footer } from './components/Footer/Footer.jsx';
-import { LogInForm } from './components/auth/LogInForm.jsx';
+import { LogInForm } from "./components/LogInForm/LogInForm";
+
 
 export const App = () => {
 
   return (
     <>
-      <BrowserRouter>
-        <NavBar/>
+      {/* <BrowserRouter>
         <Routes>
           
           <Route path="*" element={<Navigate to="auth" replace/>}/>
-          <Route path="auth" index element={<LogInForm/>}/>
+          <Route path="auth" index element={}/>
           <Route/>
          
         </Routes>
-        <Footer/>
-      </BrowserRouter>      
+      </BrowserRouter>       */}
+      <LogInForm />
     </>
   );
 }

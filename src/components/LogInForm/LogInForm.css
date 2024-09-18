@@ -1,0 +1,16 @@
+
+div {
+    margin: auto;
+    height: 80vh;
+    width: 40vw;
+
+    border-radius: 25px;
+
+    background-color: rgb(49, 49, 49);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
